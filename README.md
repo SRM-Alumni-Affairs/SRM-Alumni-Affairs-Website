@@ -1,1 +1,1 @@
-# SRM-_Alumni-Affairs-Website
+# SRM_Alumni-Affairs-Website
