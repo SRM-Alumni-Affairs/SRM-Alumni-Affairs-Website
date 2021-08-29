@@ -1291,9 +1291,9 @@ nav .btn-setting {
     /* display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 2px; */
-    height: 6rem;
-    margin: 0 50px 100px 0;
-    width: 6rem;
+    height: 10rem;
+    margin: 50px 50px;
+    width: 10rem;
     animation: rotation 2s linear infinite;
 }
 
@@ -1329,5 +1329,53 @@ nav .btn-setting {
     }
     to {
         transform: rotate(359deg);
+    }
+}
+
+#home-logo {
+    z-index: 1;
+    height: 150px !important;
+    width: 150px !important;
+    position: absolute;
+    top: 20%;
+    left: 47%;
+}
+
+@media only screen and (max-width: 1022px) {
+    #home-logo {
+        top: 20%;
+        left: 44%;
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    #home-logo {
+        top: 17%;
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #home-logo {
+        top: 20%;
+        left: 37%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #home-logo {
+        top: 20%;
+        left: 32% !important;
+    }
+    .tp-caption {
+        margin-top: 18% !important;
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #home-logo {
+        top: 20%;
+        left: 36%;
     }
 }
