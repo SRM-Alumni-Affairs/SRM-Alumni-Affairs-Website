@@ -62,6 +62,100 @@
     background-color: #8b9397cc;
     transition: 0.5s ease;
   }
+  /* footer start  ---------------------------------- */
+
+footer {
+    background: #0a0c18;
+    color: white;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+}
+
+hr.light {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    margin: .8rem 0;
+}
+
+.daafooter a,
+.daaLogo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.daafooter a:hover,
+.daaLogo:hover {
+    color: #ffdd55;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.social_icon li a {
+    font-size: 30px;
+    margin-right: 1vw;
+}
+
+li a:hover {
+    color: #ffdd55;
+    text-decoration: none;
+}
+
+.footer_inner1 {
+    margin-left: 35%;
+}
+
+.socialresponsive {
+    align-items: center;
+}
+
+ul.social_icon {
+    align-items: center;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+ul.social_icon li {
+    float: left;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    padding: 0;
+}
+
+.about-para-link {
+    margin-bottom: 8vh;
+}
+
+#nav-bars {
+    display: none;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*="p1"] {
+    padding: 1rem;
+}
+
+
+/* footer section end ---------------------------- */
+
 @media only screen and (max-width : 450px){
     .events-img{
         padding: 4%;
