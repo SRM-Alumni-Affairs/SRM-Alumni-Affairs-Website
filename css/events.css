@@ -6,7 +6,8 @@
 .heading{
     padding-bottom: 2%;
     border-bottom: 4px solid rgb(241, 195, 15);
-    margin-bottom: 2%
+    margin-bottom: 2%;
+    font-size: 2.5em;
 }
 .events-img{
     border-radius: 18px;
@@ -43,6 +44,9 @@
   .event-box{
     margin-bottom: 5%;
     padding: 2%;
+  }
+  .get-certificates{
+      padding-top: 1%;
   }
   .card-head{
     background-color: #30373de8;
@@ -162,9 +166,12 @@ ul.social_icon li {
     }
     .card-head{
         margin-left: 6%;
-        height: 95%;
+        height: 91%;
     }
     .card2{
+        margin-top: 8%;
+    }
+    .card3{
         margin-top: 10%;
     }
 }
@@ -176,7 +183,7 @@ ul.social_icon li {
         line-height: 3rem;
     }
     .card-head{
-        margin-left: 30%;
+        margin-left: 6%;
     }
 
 }
