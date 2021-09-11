@@ -1,0 +1,227 @@
+.our-domain{
+    padding: 2.5rem 0;
+}
+.domain{
+    background-color: #007affa8;
+    border-radius: 70px;
+    height: 10em;
+    backface-visibility: hidden;
+    z-index: 2;
+    transition: transform 0.5s ease;
+}
+.domain1{
+    background-color: #f1c30fdb;
+}
+.domain3{
+    background-color: #3a00ff94;
+}
+.domain4{
+    background-color: #a400ff59;;
+}
+.domain5{
+    background-color: #28a77078;
+}
+.domains-box{
+    margin-top: 10%;
+}
+.domain-info{
+    padding-top: 14%;
+    font-size: 32px;
+    font-weight: 600
+}
+.domain:hover{
+    transform: scale(1.1);
+    /*background-color: #f1c30fdb;*/
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.decorative-rec1{
+    position: absolute;
+    top: 13%;
+    right: 1%;
+}
+.decorative-rec2{
+    top: 56%;
+    position: absolute;
+    right: 85%;
+}
+/* footer start  ---------------------------------- */
+
+footer {
+    background: #0a0c18;
+    color: white;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+}
+
+hr.light {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    margin: .8rem 0;
+}
+
+.daafooter a,
+.daaLogo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.daafooter a:hover,
+.daaLogo:hover {
+    color: #ffdd55;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.social_icon li a {
+    font-size: 30px;
+    margin-right: 1vw;
+}
+
+li a:hover {
+    color: #ffdd55;
+    text-decoration: none;
+}
+
+.footer_inner1 {
+    margin-left: 35%;
+}
+
+.socialresponsive {
+    align-items: center;
+}
+
+ul.social_icon {
+    align-items: center;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+ul.social_icon li {
+    float: left;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    padding: 0;
+}
+
+.about-para-link {
+    margin-bottom: 8vh;
+}
+
+#nav-bars {
+    display: none;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*="p1"] {
+    padding: 1rem;
+}
+
+
+/* footer section end ---------------------------- */
+@media only screen and (max-width : 450px){
+    .domain{
+        margin-top: 7%;
+    }
+    .dom-box2{
+        margin-top: 0%;
+    }
+    .dom-box3{
+        margin-top: 0%;
+    }
+    .domain:hover{
+        transform: scale(1.07);
+        transition: transform .5s ease;
+        cursor: pointer;
+    }
+    .domain5{
+        width: 25em;
+    }
+}
+
+@media only screen and (min-width : 768px){
+    .dom-col{
+        margin-left: 5%;
+    }
+    .domain-info{
+        padding-top: 18%;
+    }
+    .domain{
+        width: 20em;
+    }
+    .decorative-rec1{
+        position: absolute;
+        top: 21%;
+        right: 5%;
+    }
+    .decorative-rec2{
+        top: 62%;
+        position: absolute;
+        right: 82%;
+    }
+
+}
+@media only screen and (min-width : 1024px){
+    .dom-col{
+        margin-left: 7%;
+    }
+    .domain-info{
+        padding-top: 14%;
+    }
+    .domain{
+        width: 27em;
+    }
+    .decorative-rec1{
+        position: absolute;
+        top: 21%;
+        right: 4%;
+    }
+    .decorative-rec2{
+        top: 67%;
+        position: absolute;
+        right: 83%;
+    }
+}
+@media only screen and (min-width : 1440px){
+    .domains-box{
+        margin-top: 6%;
+    }
+    .dom-col{
+        margin-left: 6%;
+    }
+    .domain-info{
+        padding-top: 12%;
+    }
+    .domain{
+        width: 30em;
+    }
+    .decorative-rec1{
+        position: absolute;
+        top: 23%;
+        right: 13%;
+    }
+    .decorative-rec2{
+        top: 64%;
+        position: absolute;
+        right: 80%;
+    }
+}
