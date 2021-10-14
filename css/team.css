@@ -68,6 +68,9 @@
 .box:hover .imgBx img{
     opacity: 1.75;
 }
+.box .social-handles a img{
+    margin: 5px;
+}
 
 .box::before{
     content: ' ';
