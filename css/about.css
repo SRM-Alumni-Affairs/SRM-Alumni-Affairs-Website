@@ -41,6 +41,7 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
     font-size:17px;
+    white-space: nowrap;
 }
 .about .msg strong{
     margin: 0 0 10px;
@@ -60,17 +61,17 @@ body{
     margin-right: 90px;
 }
 
-.text{
+/* .text{
     justify-content: center;
     text-align: center;
     white-space: nowrap;
-}
+} */
 
 .about img{
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    position: relative;
+    position:relative;
     display: flex;
     margin-top: 0px;
     border: 5px solid #bebebe;
