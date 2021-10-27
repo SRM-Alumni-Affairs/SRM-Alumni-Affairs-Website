@@ -89,16 +89,31 @@ body{
 
 @media screen and (max-width:1200px){
     .about{
-        padding: 80px;
+        padding: 20px 20px;
     }
-    .about .msg{
-        font-size: 2vw;
+    .about .msg p{
+        font-size:small;
+    }
+    .about .msg strong{
+        font-size:small;
     }
     .about img{
         max-width: 90%;
         height: auto;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+    .about{
+        padding: 25px 25px;
+    }
+    .about .msg p{
+        font-size:small;
+    }
+    .about .msg strong{
+        font-size: small;
+    }
 }
 
 /* @media screen and (max-width:600px){
