@@ -1488,7 +1488,7 @@ ul.social_icon li {
 @media only screen and (max-width: 480px) {
     #home-logo {
         top: 20%;
-        left: 32% !important;
+        left: 30% !important;
     }
     .tp-caption {
         margin-top: 18% !important;
