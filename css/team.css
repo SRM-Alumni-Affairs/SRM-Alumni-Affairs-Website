@@ -154,3 +154,10 @@
     letter-spacing: 2px;
     display: none;
 }
+
+
+@media screen and (max-width: 550px) {
+    .heading h1{
+        font-size: xx-large;
+    }
+}
